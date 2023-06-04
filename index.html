@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        body{
+            background-color: rgb(197, 148, 243);
+            border: 5px solid black;
+            border-style: double;
+            padding:20px;
+            margin:10px;
+        }
+        h1{
+            text-align: center;
+        }
+        .hii:hover{
+            background-color: crimson;
+        }
+        .btn:hover{
+            background-color: cornflowerblue;
+        }
+        @media(max-width:652px){
+.add{
+    width: 50%;
+    height:50px;
+}
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label>First Name :-</label>
+        <input type="text" size="15"><br><br>
+        <label>Middle Name :-</label>
+        <input type="text" size="15"><br><br>
+        <label>Last Name :-</label>
+        <input type="text" size="15"><br><br>
+        <label>
+            Courses :-
+        </label>
+        <select>
+            <option value="course">course</option>
+            <option value="Bca">BCA</option>
+            <option value="Bca">BCA</option>
+        </select><br><br>
+        Gender :-
+        <input type="radio" id="Male" name="hii" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="hii" value="Female">
+        <label for="Female">Female</label><br><br>
+        phone :-
+        <input type="text" value="+91" size="2">
+        <input type="text" size="10"><br><br>
+        Address :-<br>
+        <textarea cols="80" rows="5" value="address" class="add"></textarea><br><br>
+        Email :-
+        <input type="email"><br><br>
+        Password :-
+        <input type="password"><br><br>
+        Re-type Password :-
+        <input type="password"><br><br>
+    </form>
+    <button class="hii">
+        Submit
+    </button>
+    <button class="btn">
+        Cancel
+    </button>
+</body>
+
+</html>
